@@ -8,7 +8,7 @@ const TimelineEvent = (props) => {
     <section>
       <p>person: {props.person}</p>
       <p>status: {props.status}</p>
-      <p>timestamp: <Timestamp time={props.time}/></p>
+      <p>timestamp: <Timestamp time={props.timeStamp}/></p>
     </section>
   );
 };
